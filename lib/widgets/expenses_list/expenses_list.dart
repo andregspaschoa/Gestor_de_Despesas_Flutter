@@ -20,7 +20,7 @@ class ExpensesList extends StatelessWidget {
       itemBuilder: (ctx, index) => Dismissible(
         key: ValueKey(expenses[index]),
         background: Container(
-          color: Theme.of(context).colorScheme.error.withOpacity(0.75),
+          color: const Color.fromARGB(255, 255, 57, 57) ,
           margin: EdgeInsets.symmetric(
             horizontal: Theme.of(context).cardTheme.margin!.horizontal,
           ),
